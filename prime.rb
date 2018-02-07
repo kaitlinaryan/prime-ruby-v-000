@@ -4,9 +4,7 @@ def prime?(i)
 range.any? do |n|
   if i <= 1
     return false
-elsif i == 2
-  return true
-elsif i < 2 && i % 2 == 1
+elsif i == 2 || i < 2 && i % 2 == 1
   return true
 else
   return false
