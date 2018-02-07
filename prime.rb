@@ -7,4 +7,5 @@ elsif i == 2
   if i % 2 != 1
     return false
   else true
+  end
 end
