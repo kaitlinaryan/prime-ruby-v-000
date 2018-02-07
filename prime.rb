@@ -4,6 +4,6 @@ if i == 1 || i % 2 != 1
 elsif i == 2
   return true
 else
-  return true
+  return false
 end
 end
