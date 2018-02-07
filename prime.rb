@@ -5,4 +5,5 @@ def prime?(integer)
   i < 2 && i % 2 == 1
   return true
   else false
+  end
 end
