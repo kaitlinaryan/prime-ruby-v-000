@@ -1,10 +1,5 @@
 
 def prime?(i)
-  range = (2..(i-1)).to_a
-range.any? do |n|
-  if n == 2 || n < 2 && n % 2 == 1
-    return true
-else
-  false
-  end
+  numbers = (2..(integer - 1)).to_a
+  (numbers.any? {|number| integer % number == 0} || integer == 0 || integer == 1) ? false : true
 end
