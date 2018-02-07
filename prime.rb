@@ -4,7 +4,6 @@ def prime?(i)
 range.any? do |n|
   if i == 2 || i < 2 && i % 2 == 1
     return true
-else
-  return false
+
   end
 end
