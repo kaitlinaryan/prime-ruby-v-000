@@ -1,8 +1,8 @@
 def prime?(i)
-    if i <= 1
-  return false
-elsif i == 2 
-       true
+    if i == 2
+  return true
+elsif i <= 1
+       false
 elsif (2..(i/2)).any? {|prime| i % prime == 0 }
   return false
 else
