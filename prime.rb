@@ -3,4 +3,5 @@ def prime?(integer)
   range.each do |n|
   if n % n == 0
 return true
+  end
 end
