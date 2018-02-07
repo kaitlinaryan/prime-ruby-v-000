@@ -3,7 +3,6 @@ def prime?(integer)
   integer.each do |n|
   if n % n == 0
 return true
-end
 else
-  false
+  return false
 end
