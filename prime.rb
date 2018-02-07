@@ -6,6 +6,6 @@ elsif i == 2
 elsif (2..(i/2)).any? {|prime| i % prime == 0 }
   return false
 else
-  return true
+  return false
 end
 end
